@@ -16,7 +16,19 @@ public class ObsticalSpawner : MonoBehaviour
             {
                 GameObject temp = Instantiate(spawnableObjects[rand], spawnPoint.transform);
                 temp.transform.localPosition = Vector3.zero;
-                temp.transform.rotation = Quaternion.Euler(-83, 180, 90);
+
+                switch (rand)
+                {
+                    case 0:
+                        temp.transform.localRotation = Quaternion.identity;
+                        break;
+
+                    default:
+                    case 2:
+                    case 1:
+                        temp.transform.localRotation = Quaternion.Euler(-172, 180, 90);
+                        break;
+                }                
                 temp.name = spawnableObjects[rand].name;                
             }
             spawnableObjects.RemoveAt(rand);

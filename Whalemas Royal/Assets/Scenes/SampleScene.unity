@@ -6563,8 +6563,11 @@ MonoBehaviour:
   index: 0
   speed: 0
   grid: []
+  jumpForce: 0
+  grounded: 0
   gridIndex: 0
   rb: {fileID: 0}
+  terminalVelocity: 0
 --- !u!135 &1010000141
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6770,8 +6773,11 @@ MonoBehaviour:
   index: 0
   speed: 0
   grid: []
+  jumpForce: 0
+  grounded: 0
   gridIndex: 0
   rb: {fileID: 0}
+  terminalVelocity: 0
 --- !u!135 &1290520256
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6865,8 +6871,11 @@ MonoBehaviour:
   index: 0
   speed: 0
   grid: []
+  jumpForce: 0
+  grounded: 0
   gridIndex: 0
   rb: {fileID: 0}
+  terminalVelocity: 0
 --- !u!135 &1367480566
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7213,8 +7222,11 @@ MonoBehaviour:
   - -1.401028
   - 1.598972
   - 4.598972
+  jumpForce: 0
+  grounded: 0
   gridIndex: 0
   rb: {fileID: 1560440612}
+  terminalVelocity: 50
 --- !u!1 &1594458311
 GameObject:
   m_ObjectHideFlags: 0
